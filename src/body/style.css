@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+}
+
+.wrap__main{
+    max-width: 100%;
+    width: 100%;
+    max-height: 1107px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.main__images{
+    max-width: 910px;
+    width: 100%;
+    max-height: 1110px;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr  1fr;
+    grid-gap: 20px;
+    position: relative;
+}
+
+.image1{
+    position: absolute;
+    left: 0px;
+    width: 302px;
+    height: 302px;
+}
+
+.image2{
+    position: absolute;
+    left: 322px;
+    width: 302px;
+    height: 453px;
+}
+
+.image3{
+    position: absolute;
+    left: 644px;
+    width: 302px;
+    height: 302px;
+}
+
+.image4{
+    position: absolute;
+    top: 322px;
+    width: 302px;
+    height: 302px;
+}
+
+.image5{
+    position: absolute;
+    top: 470px;
+    left: 322px;
+    width: 302px;
+    height: 302px;
+}
+
+.image6{
+    position: absolute;
+    top: 322px;
+    left: 644px;
+    width: 302px;
+    height: 302px;
+}
+
+.image7{
+    position: absolute;
+    top: 644px;
+    width: 302px;
+    height: 302px;
+}
+
+.image8{
+    position: absolute;
+    top: 790px;
+    left: 322px;
+    width: 302px;
+    height: 302px;
+}
+
+.image9{
+    position: absolute;
+    top: 644px;
+    left: 644px;
+    width: 302px;
+    height: 302px;
+}
+
+.main__madeby{
+    max-width: 100%;
+    width: 100%;
+    max-height: 150px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: reltive;
+    margin-top: 1200px;
+}
+
+.madeby__links{
+    display: flex;
+    gap: 5px;
+    padding: 10px;
+}
